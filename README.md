@@ -10,17 +10,17 @@ Add this line to your application's Gemfile:
 
 And then execute:
 
-    $ bundle
-    $ run rails g checkout_ru:install
+    $ bundle install
+    $ rails g spree_checkout_ru:install
 
 Or install it yourself as:
 
     $ gem install spree_checkout_ru
-    $ run rails g checkout_ru:install
+    $ rails g spree_checkout_ru:install
 
 ## Usage
 
-0. Dependencies jquery autocomplete!
+0. Dependencies jQuery autocomplete!
 1. Подключите checkoutru.js в нужной вам вьюхе
 2. Добавьте <%= render :partial => 'spree/checkout/checkout_ru'%> на страницу, где хотите выбирать способ доставки
 
