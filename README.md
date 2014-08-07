@@ -21,8 +21,12 @@ Or install it yourself as:
 ## Usage
 
 0. Dependencies jQuery autocomplete!
-1. Подключите checkoutru.js в нужной вам вьюхе
-2. Добавьте <%= render :partial => 'spree/checkout/checkout_ru'%> на страницу, где хотите выбирать способ доставки
+1. Добавить в spree.rb Идентификационный ключ клиента в Checkout.ru
+
+    Spree::Config[:checkout_store_key] = "KEY"
+
+2. Подключите checkoutru.js в нужной вам вьюхе
+3. Добавьте <%= render :partial => 'spree/checkout/checkout_ru'%> на страницу, где хотите выбирать способ доставки
 
 ## Contributing
 
