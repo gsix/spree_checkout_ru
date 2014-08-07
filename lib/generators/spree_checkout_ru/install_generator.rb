@@ -1,4 +1,4 @@
-module CheckoutRu
+module SpreeCheckoutRu
   module Generators
     class InstallGenerator < Rails::Generators::Base
       source_root File.expand_path("../../..", __FILE__)
